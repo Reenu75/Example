@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width:300px;
+            height:30px;
+            border-radius: 20px;
+            border:1px solid grey;
+        }
+       #focusinput:focus{
+            outline: none; 
+            border: none; 
+            /* border:1px solid blue ; */
+            box-shadow:0px 0px 5px 0px blue;           
+       }
+    </style>
+</head>
+<body>
+ 
+     <input type="text" id="focusinput" placeholder="With Focus"><br><br>
+     <input type="text" placeholder="WIthout Focus">
+</body>
+</html>
